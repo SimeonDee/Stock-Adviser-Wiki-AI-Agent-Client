@@ -98,3 +98,14 @@ Deletes the `.venv` and `__pycache__` directories
 ```bash
 (.venv) ~ $ make test
 ```
+
+## Application Screenshots
+
+- Login Screen: For agent user login
+  ![Login Interface](images/login_screen.png)
+
+- Register Screen: For new agent user registration
+  ![Register Interface](images/register_screen.png)
+
+- Chat Interface: For Interaction between user and the AI Agent.
+  ![Chat Interface](images/chat_session.png)
