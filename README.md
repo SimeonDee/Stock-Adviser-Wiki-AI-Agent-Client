@@ -109,3 +109,6 @@ Deletes the `.venv` and `__pycache__` directories
 
 - Chat Interface: For Interaction between user and the AI Agent.
   ![Chat Interface](images/chat_session.png)
+
+- A Chat Session Interface: An on-going chat session between user and the AI Agent.
+  ![Chat Session](images/chat_session2.png)

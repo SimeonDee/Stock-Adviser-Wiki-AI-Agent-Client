@@ -1,4 +1,4 @@
-from src.utils import login_user
+from src.utils import login_user, reset_history
 
 
 # Login Page
@@ -16,6 +16,12 @@ def login_page(st):
             if login_user(st, email, password):
                 st.session_state.logged_in = True
                 st.session_state.page = "home"
+                # Reset chat history
+                reset_history(
+                    st,
+                    user_name=st.session_state.logged_in_user[
+                        'fullname'].split()[0],
+                )
             else:
                 st.error("Authentication failed. Check your credentials.")
                 st.session_state.logged_in = False

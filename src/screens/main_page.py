@@ -1,4 +1,4 @@
-from src.utils import get_agent_response, reset_history
+from src.utils import get_agent_response
 
 
 # Main Page
@@ -12,11 +12,7 @@ def main_page(st):
         st.session_state.logged_in = False
         st.session_state.page = "login"
 
-    # Reset chat history and diplay main page elements
-    reset_history(
-        st,
-        user_name=st.session_state.logged_in_user['fullname'].split()[0],
-    )
+    # Diplay main page elements
     _, col2, col3 = st.columns([5, 2, 1])
     with col2:
         st.write(
