@@ -1,10 +1,10 @@
-# Stock-Adviser-Wiki-AI-Agent-Demo
+# Stock-Adviser-Wiki-AI-Agent-Client
 
 **CLIENT**: A user-facing Streamlit `client application` for interacting with custom built Stock Adviser and Wiki Search AI Agent (built using Agno Multiagentic framework) implemented using `Streamlit`.
 
 The demo AI Agent, implemented using [Agno Agentic Framework](https://docs.agno.com/), equiped with `yfinance` and `wikipedia` tools that can provide stock data, STOCK analysis and recommendations, and answer user queries from wikipedia knowledge base.
 
-The Agent is provided as a `RESTful API service` implemented using `FastAPI` (see `Stock-Adviser-Wiki-AI-Agent-Server-Demo` repo).
+The Agent is provided as a `RESTful API service` implemented using `FastAPI`. See [Stock-Adviser-Wiki-AI-Agent-Server-Demo](https://github.com/SimeonDee/Stock-Adviser-Wiki-AI-Agent-Demo) repo.
 
 ## Contacts
 
