@@ -1,0 +1,11 @@
+[project]
+name = "stock-adviser-wiki-agent-client"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8.5"
+dependencies = [
+    "numexpr==2.7.3",
+    "requests>=2.32.4",
+    "streamlit>=1.40.1",
+]
